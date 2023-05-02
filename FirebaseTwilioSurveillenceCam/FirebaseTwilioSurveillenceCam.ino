@@ -21,27 +21,27 @@
 #include "camera_pins.h"
 
 // Values from Twilio (find them on the dashboard)
-static const char *account_sid = "AC4ba512861d5427950f277d013e27942f";
-static const char *auth_token = "1cc6025ede598805328e6d3ebd99d0bf";
+static const char *account_sid = "################################";
+static const char *auth_token = "################################";
 // Phone number should start with "+<countrycode>"
-static const char *from_number = "+18444196455";
+static const char *from_number = "+1844#######";
 
 // You choose!
 // Phone number should start with "+<countrycode>"
-static const char *to_number = "+12673618594";
+static const char *to_number = "+1267#######";
 static const char *message = "Potential gun violance detected in your area.";
 
 Twilio *twilio;
 
 //Network credentials.
 #define WIFI_SSID "HUNOSWTHAPENS"
-#define WIFI_PASSWORD "annafyh3732"
+#define WIFI_PASSWORD "###########"
 
 //Firebase project API Key
-#define API_KEY "AIzaSyANO-45Sq1N09OjxfPKESvdll1bE287f_g"
+#define API_KEY "###################################"
 
 //RTDB URLefine the RTDB URL */
-#define DATABASE_URL "https://ewb-voltage-remote-sensing-default-rtdb.firebaseio.com/" 
+#define DATABASE_URL "https://sentinelAI.firebaseio.com/" 
 
 #define Buzzer_Pin 0
 #define LED_Pin 45
